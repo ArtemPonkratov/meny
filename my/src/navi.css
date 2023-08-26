@@ -1,0 +1,32 @@
+/* Основной стиль навигации */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Стиль списка */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Стиль пункта меню */
+nav li {
+    display: inline;
+}
+
+/* Стиль ссылки */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+/* Стиль ссылки при наведении */
+nav a:hover {
+    background-color: #555;
+}
